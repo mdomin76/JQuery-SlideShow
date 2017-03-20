@@ -1,0 +1,61 @@
+body {
+    background-image: url(https://source.unsplash.com/JdUzpKdBsbI/1600x900);
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(27, 20, 20, 0.31);
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0px 3px 4px black;
+}
+
+#slideshow {
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    border: 7px solid #51515f;
+    box-shadow: 3px 6px 5px 0 #4e4e4e;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.slideshow div {
+    width: 100%;
+    margin-left:0px;
+    position: relative;
+    display: inline-block;*/
+    display: none;
+}
+
+.img {
+
+    margin-left:0px;
+    /*display: inline-block;
+    display: none;*/
+}
+
+button.left {
+    top: 50%;
+    position: absolute;
+}
+
+button.right {
+    top: 50%;
+    right: 0%;
+    position: absolute;
+}
+
+button {
+    border-width: 1px;
+    background-color: rgba(66, 66, 65, 0.56);
+    border-color: rgba(63, 63, 74, 0.16);
+}
